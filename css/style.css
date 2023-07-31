@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300;500;900&family=Roboto:wght@500;900&display=swap');
+
+/* RESETAÇÃO DAS CONFIGURAÇÕES PADRÃO */
+
+* {
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+/* lOGIN */
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login_header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.login_header img {
+    width: 100px;
+}
+
+.login_header h1 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.login_input {
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+}
+
+.botao_login {
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1em;
+    box-shadow: 4px 4px 0 black;
+    cursor: pointer;
+}
+
+.botao_login:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+    box-shadow: none;
+}
